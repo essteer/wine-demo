@@ -18,6 +18,7 @@ export default function Button() {
             "bg-blue-900": !toggle 
             })}>
             <button onClick={toggleHandler}>CLICK</button>
+            {toggle ? <p>I am toggled</p> : <p>I am not.</p>}
         </div>
     );
 }
