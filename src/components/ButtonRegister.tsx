@@ -13,7 +13,7 @@ export default function Button() {
     }
 
     return (
-        <div className={cn("p-4", style.myButton, { 
+        <div className={cn("p-4 text-center", style.myButton, { 
             "bg-gray-500": toggle, 
             "bg-rose-900": !toggle 
             })}>

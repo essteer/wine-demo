@@ -13,13 +13,12 @@ export default function Button() {
     }
 
     return (
-        <div className={cn("p-4", style.myButton, { 
+        <div className={cn("p-4 text-center", style.myButton, { 
             // Login button begins greyed out, turns blue when details are entered
             "bg-slate-500": toggle, 
             "bg-blue-900": !toggle 
             })}>
             <button onClick={toggleHandler}>LOGIN</button>
-            {toggle ? <p>Enter email and password</p> : <p></p>}
         </div>
     );
 }
