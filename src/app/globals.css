@@ -25,3 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+div:first-of-type {
+  border-radius: 10px;
+}
+
+input {
+  color: black;
+  border-radius: 5px;
+}
