@@ -1,6 +1,10 @@
 .myButton {
+    border: none;
+    border-radius: 5px;
     /* Tailwind Stone 200 */
     color: #e7e5e4;
-    font-size: 32px;
-    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
 }

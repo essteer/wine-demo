@@ -1,5 +1,6 @@
-import ButtonLogin from "@/components/ButtonLogin";
+// import ButtonLogin from "@/components/ButtonLogin";
 import ButtonRegister from "@/components/ButtonRegister";
+import Button from "@/components/Button";
 
 export default function User() {
     return (
@@ -16,8 +17,8 @@ export default function User() {
                         <input className="mt-2 p-1" type="password" placeholder="Password"></input>
                     </div>
                     <div className="gap-4 columns-2 mt-4">
-                        <ButtonLogin />
-                        <ButtonRegister />
+                        <Button color="btnLogin" name="login" />
+                        <Button color="btnRegister" name="register" />
                     </div>
                 </div>
             </div>

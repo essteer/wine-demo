@@ -4,21 +4,20 @@ import { cn } from "@/lib/util";
 import style from "./Button.module.css";
 import { useState } from "react";
 
-export default function Button() {
-    // React Hook
-    const [toggle, setToggle] = useState(false);
+export default function Button({color="color", name="name"}) {
 
-    function toggleHandler () {
-        setToggle(!toggle)
+    let btnColors = {
+        "btn": "bg-blue-900",
+        "btnLogin": "bg-blue-900",
+        "btnRegister": "bg-rose-900",
+        "disabled": "bg-grey-500"
     }
 
+    const myColor = btnColors[color];
+
     return (
-        <div className={cn("p-4", style.myButton, { 
-            "bg-gray-500": toggle, 
-            "bg-blue-900": !toggle 
-            })}>
-            <button onClick={toggleHandler}>CLICK</button>
-            {toggle ? <p>I am toggled</p> : <p>I am not.</p>}
+        <div>
+            <button className={cn("p-4", style.myButton, myColor)}>{name}</button>
         </div>
     );
 }
