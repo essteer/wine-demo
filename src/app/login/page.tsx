@@ -1,5 +1,3 @@
-// import ButtonLogin from "@/components/ButtonLogin";
-import ButtonRegister from "@/components/ButtonRegister";
 import Button from "@/components/Button";
 
 export default function User() {
