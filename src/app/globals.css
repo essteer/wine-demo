@@ -26,9 +26,9 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-div:first-of-type {
+/* div:first-of-type {
   border-radius: 10px;
-}
+} */
 
 input {
   color: black;

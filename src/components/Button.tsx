@@ -7,7 +7,7 @@ import { useState } from "react";
 export default function Button({color="color", name="name"}) {
 
     let btnColors = {
-        "btn": "bg-blue-900",
+        "btn": "bg-slate-800",
         "btnLogin": "bg-blue-900",
         "btnRegister": "bg-rose-900",
         "disabled": "bg-grey-500"
