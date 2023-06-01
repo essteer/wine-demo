@@ -31,7 +31,7 @@ export default function Navbar() {
                                     smooth={true} 
                                     offset={50} 
                                     duration={500} 
-                                    className="cursor-pointer text-rose-700 font-semibold px-3 py-2 text-md">
+                                    className="cursor-pointer text-center text-rose-700 font-semibold px-3 py-2 w-20 rounded-md text-md">
                                         Cart
                                     </Link>
                                     <Link 
@@ -40,7 +40,7 @@ export default function Navbar() {
                                     smooth={true} 
                                     offset={50} 
                                     duration={500} 
-                                    className="cursor-pointer hover:bg-rose-700 text-white hover:text-black px-3 py-2 rounded-md text-sm fond-medium">
+                                    className="cursor-pointer text-center hover:bg-rose-700 text-white hover:text-black px-3 py-2 w-20 rounded-md text-sm fond-medium">
                                         Browse
                                     </Link>
                                     <Link 
@@ -49,7 +49,7 @@ export default function Navbar() {
                                     smooth={true} 
                                     offset={50} 
                                     duration={500} 
-                                    className="cursor-pointer hover:bg-rose-700 text-white hover:text-black px-3 py-2 rounded-md text-sm fond-medium">
+                                    className="cursor-pointer text-center hover:bg-rose-700 text-white hover:text-black px-3 py-2 w-20 rounded-md text-sm fond-medium">
                                         Submit
                                     </Link>
                                     <Link 
@@ -58,7 +58,7 @@ export default function Navbar() {
                                     smooth={true} 
                                     offset={50} 
                                     duration={500} 
-                                    className="cursor-pointer bg-rose-900 text-white hover:bg-rose-700 px-3 py-2 rounded-md text-sm fond-medium">
+                                    className="cursor-pointer text-center bg-rose-900 text-white hover:bg-rose-700 px-3 py-2 w-20 rounded-md text-sm fond-medium">
                                         Exit
                                     </Link>
                                 </div>
