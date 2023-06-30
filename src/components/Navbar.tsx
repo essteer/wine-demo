@@ -1,7 +1,5 @@
 "use client";
 
-import { cn } from "@/lib/util";
-import style from "./Navbar.module.css";
 import { useState } from "react";
 import {Transition} from "@headlessui/react";
 import {Link} from "react-scroll";
